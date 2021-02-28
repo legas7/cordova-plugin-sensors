@@ -1,8 +1,8 @@
 /*global cordova, module*/
 
 module.exports = {
-    getState: function(successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "Sensors", "getState", []);
+    getState: function(TYPE_SENSOR, successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "Sensors", "getState", [TYPE_SENSOR]);
     },
 
     /**
@@ -15,8 +15,8 @@ module.exports = {
     /**
      *  Disable the sensor.
      */
-    disableSensor: function() {
-        cordova.exec(null, null, "Sensors", "stop", []);
+    disableSensor: function(TYPE_SENSOR) {
+        cordova.exec(null, null, "Sensors", "stop", [TYPE_SENSOR]);
     }
 };
 
