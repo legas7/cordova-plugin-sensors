@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabiorogeriosj/cordova-plugin-sensors.git"
+    "url": "git+https://github.com/legas7/cordova-plugin-sensors.git"
   },
   "keywords": ["ecosystem:cordova", "cordova-android", "sensors"],
   "engines": {
@@ -17,7 +17,7 @@
   "author": "Fábio Rogério SJ",
   "license": "",
   "bugs": {
-    "url": "https://github.com/fabiorogeriosj/cordova-plugin-sensors/issues"
+    "url": "https://github.com/legas7/cordova-plugin-sensors/issues"
   },
-  "homepage": "https://github.com/fabiorogeriosj/cordova-plugin-sensors#readme"
+  "homepage": "https://github.com/legas7/cordova-plugin-sensors#readme"
 }
