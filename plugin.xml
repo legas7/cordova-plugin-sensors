@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="cordova-plugin-sensors"
-        version="0.7.0">
+        version="0.7.1">
 
   <name>Sensors</name>
 
@@ -24,6 +24,7 @@
     </config-file>
 
     <source-file src="src/android/Sensors.java" target-dir="src/com/fabiorogeriosj/plugin/"/>
+    <source-file src="src/android/CordovaSensor.java" target-dir="src/com/fabiorogeriosj/plugin/"/>
   </platform>
 
 
