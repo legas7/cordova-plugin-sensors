@@ -66,6 +66,7 @@ public class Sensors extends CordovaPlugin {
                 callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, "Sensors disabled, run start method before getState"));
             }
             CordovaSensor cordovaSensor = this.sensors.get(sensorType);
+            if (cordovaSensor == null) return false;
             // If not running, then this is an async call, so don't worry about waiting
             if (cordovaSensor.status != CordovaSensor.RUNNING) {
 
